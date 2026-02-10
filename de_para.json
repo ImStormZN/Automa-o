@@ -1,0 +1,29 @@
+{
+  "prioridade": ["DESC_SERVICO", "DESC_RETORNO", "OBS"],
+
+  "regras": {
+    "DESC_SERVICO": [
+      {
+        "palavra": "não postal",
+        "resultado": "IMPROCEDENTE",
+        "baremo": "FDSAMFSAJ39021"
+      }
+    ],
+
+    "DESC_RETORNO": [
+      {
+        "palavra": "postal",
+        "resultado": "PROCEDENTE",
+        "baremo": "FSAFNSA32131"
+      }
+    ],
+
+    "OBS": [
+      {
+        "palavra": "atendida",
+        "resultado": "PROCEDENTE",
+        "baremo": "DSHJ39393"
+      }
+    ]
+  }
+}
